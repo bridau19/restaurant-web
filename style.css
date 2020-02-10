@@ -1,53 +1,70 @@
 
+/* style for body*/
 body {
+  /* height property sets height of element ot 1900px */
   height: 1900px;
+  /*background color set to yellow*/
   background: #f5de11;
-  font-family: 'Abril Fatface', cursive;
+  /*sets font to Abril Fatface from Google fonts*/
+  font-family: 'Abril Fatface';
+  /*sets padding size to 3% of viewport width*/
   padding: 3vw;
+  /*margin on the bottom set to 10px*/
   margin-bottom: 10px;
 }
 
+/* reduces space between heading1 and heading2 by making margin above h2 smaller by -55px */
+/* adding h1 ensures that other h2 tags are not affected*/
 h1 + h2 { margin-top: -55px; }
 
+/* border class has style attributes for the border*/
 .border{
   width: 520px;
   height: 315px;
+  /* hidden border style hides the border line */
   border-style: hidden;
-  /*background-color:#f5de11;
-  border: 5px solid #690040;*/
   margin-bottom: 10px;
   padding-left: 78px;
   padding-bottom:100px;
   padding-top:40px;
 }
 
+/*font class changes font to Bree Serif from Google fonts*/
 .font {
   font-family: 'Bree Serif', serif;
 }
 
+/*menu class aligns text to the right*/
 .menu {
   text-align:right;
 }
 
+/* hours class adds 60px to top margin and aligns text left*/
 .hours {
   text-align:left;
   margin-top: 60px;
 }
 
+/* spacing class changes width and padding*/
 .spacing {
   width: 320px;
   padding-left: 30px;
+  /*display: inline block value displays element as inline element with no line break, allows for set width and height*/
   display: inline-block;
 }
 
+/*makes img float left, places it next to text on the left*/
 img {
   float: left;
 }
 
+/* id tag for image to make it float right and change margin space*/
 #imgleft {
   float: right;
   margin-right: 110px;
 }
+
+/*id tag for image to resize to 600px width*/
 #imgright{
   width: 600px;
 }
