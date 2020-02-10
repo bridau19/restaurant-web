@@ -1,0 +1,53 @@
+
+body {
+  height: 1900px;
+  background: #f5de11;
+  font-family: 'Abril Fatface', cursive;
+  padding: 3vw;
+  margin-bottom: 10px;
+}
+
+h1 + h2 { margin-top: -55px; }
+
+.border{
+  width: 520px;
+  height: 315px;
+  border-style: hidden;
+  /*background-color:#f5de11;
+  border: 5px solid #690040;*/
+  margin-bottom: 10px;
+  padding-left: 78px;
+  padding-bottom:100px;
+  padding-top:40px;
+}
+
+.font {
+  font-family: 'Bree Serif', serif;
+}
+
+.menu {
+  text-align:right;
+}
+
+.hours {
+  text-align:left;
+  margin-top: 60px;
+}
+
+.spacing {
+  width: 320px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+img {
+  float: left;
+}
+
+#imgleft {
+  float: right;
+  margin-right: 110px;
+}
+#imgright{
+  width: 600px;
+}
